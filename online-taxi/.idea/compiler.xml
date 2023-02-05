@@ -2,31 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-client" />
-        <module name="online-taxi-demo-app" />
-        <module name="service-order" />
-        <module name="online-taxi-common" />
-        <module name="api-passenger" />
-        <module name="service-passenger-user" />
-        <module name="api-driver" />
-        <module name="service-wallet" />
-        <module name="cloud-admin" />
-        <module name="online-taxi-zuul" />
-        <module name="service-jms-consumer" />
-        <module name="service-sms" />
+        <module name="online-taxi-config-server" />
         <module name="service-verification-code" />
-        <module name="service-order-dispatch" />
+        <module name="api-passenger" />
+        <module name="config-client" />
         <module name="eureka" />
-        <module name="service-valuation" />
-        <module name="hystrix-dashboard" />
+        <module name="service-jms-consumer" />
+        <module name="online-taxi-zuul" />
+        <module name="service-wallet" />
         <module name="service-jms-produce" />
+        <module name="service-order" />
+        <module name="api-driver" />
+        <module name="service-order-dispatch" />
+        <module name="online-taxi-demo-app" />
+        <module name="cloud-admin" />
+        <module name="hystrix-dashboard" />
+        <module name="service-valuation" />
         <module name="api-listen-order" />
         <module name="config-client-diy" />
-        <module name="online-taxi-config-server" />
+        <module name="online-taxi-common" />
+        <module name="service-sms" />
+        <module name="service-passenger-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,7 +42,7 @@
       <module name="online-taxi-common" target="1.8" />
       <module name="online-taxi-config-server" target="1.8" />
       <module name="online-taxi-demo-app" target="1.8" />
-      <module name="online-taxi-parent" target="1.5" />
+      <module name="online-taxi-parent" target="1.8" />
       <module name="online-taxi-zuul" target="1.8" />
       <module name="service-app-update" target="1.8" />
       <module name="service-jms-consumer" target="1.8" />
